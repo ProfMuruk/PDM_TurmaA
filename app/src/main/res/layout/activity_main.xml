@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <TextView
+        android:id="@+id/nome_produto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:ignore="MissingConstraints"
+        android:text="Nome produto"
+        />
+
+    <TextView
+        android:id="@+id/descricao_produto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:ignore="MissingConstraints"
+        tools:text="Descrição do produto"
+        app:layout_constraintTop_toBottomOf="@+id/nome_produto"
+        />
+
+    <TextView
+        android:id="@+id/valor_produto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:ignore="MissingConstraints"
+        android:text="Valor produto"
+        app:layout_constraintTop_toBottomOf="@+id/descricao_produto"
+        />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

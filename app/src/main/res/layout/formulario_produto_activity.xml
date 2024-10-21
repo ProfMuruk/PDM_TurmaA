@@ -31,7 +31,7 @@
         android:id="@+id/valor_produto"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:hint="Digite a descrição do produto"
+        android:hint="Digite o valor"
         android:inputType="text"
         app:layout_constraintEnd_toEndOf="@+id/descricao_produto"
         app:layout_constraintStart_toStartOf="@id/descricao_produto"
